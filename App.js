@@ -5,11 +5,12 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text> I am tired </Text>
+        <Text> this is taking forever to complete </Text>
       </View>
     );
-  }
-}
+  };
+};
+
 
 const styles = StyleSheet.create({
   container: {
